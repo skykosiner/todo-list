@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5814F28E25339B3D00EDCA0E /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5814F28D25339B3D00EDCA0E /* DataStore.swift */; };
+		5814F2932533A0F700EDCA0E /* TaskFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5814F2922533A0F700EDCA0E /* TaskFiles.swift */; };
 		58CB649B24E42BAE0025787C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CB649A24E42BAE0025787C /* AppDelegate.swift */; };
 		58CB649D24E42BAE0025787C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CB649C24E42BAE0025787C /* SceneDelegate.swift */; };
 		58CB649F24E42BAE0025787C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CB649E24E42BAE0025787C /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5814F28D25339B3D00EDCA0E /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		5814F2922533A0F700EDCA0E /* TaskFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiles.swift; sourceTree = "<group>"; };
 		58CB649724E42BAE0025787C /* todo-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "todo-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CB649A24E42BAE0025787C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58CB649C24E42BAE0025787C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,10 +106,12 @@
 				58CB649A24E42BAE0025787C /* AppDelegate.swift */,
 				58CB649C24E42BAE0025787C /* SceneDelegate.swift */,
 				58CB649E24E42BAE0025787C /* ContentView.swift */,
+				5814F28D25339B3D00EDCA0E /* DataStore.swift */,
 				58CB64A024E42BB60025787C /* Assets.xcassets */,
 				58CB64A524E42BB60025787C /* LaunchScreen.storyboard */,
 				58CB64A824E42BB60025787C /* Info.plist */,
 				58CB64A224E42BB60025787C /* Preview Content */,
+				5814F2922533A0F700EDCA0E /* TaskFiles.swift */,
 			);
 			path = "todo-list";
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				58CB649B24E42BAE0025787C /* AppDelegate.swift in Sources */,
+				5814F28E25339B3D00EDCA0E /* DataStore.swift in Sources */,
 				58CB649D24E42BAE0025787C /* SceneDelegate.swift in Sources */,
 				58CB649F24E42BAE0025787C /* ContentView.swift in Sources */,
+				5814F2932533A0F700EDCA0E /* TaskFiles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
